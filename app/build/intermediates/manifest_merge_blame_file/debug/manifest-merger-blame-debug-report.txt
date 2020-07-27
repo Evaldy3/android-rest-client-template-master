@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.codepath.apps.restclienttemplate"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:36:5-81
+11-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:36:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:38:5-67
+12-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:38:22-64
+13
+14    <application
+14-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:7:5-35:19
+15        android:name="com.codepath.apps.restclienttemplate.TwitterApp"
+15-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:8:9-35
+16        android:allowBackup="true"
+16-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\kasper\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@drawable/ic_launcher"
+19-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:10:9-45
+20        android:label="@string/app_name"
+20-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:11:9-41
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:12:9-40
+23        <activity android:name="com.codepath.apps.restclienttemplate.DetailedView" />
+23-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:13:9-59
+23-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:13:19-47
+24        <activity android:name="com.codepath.apps.restclienttemplate.TimelineActivity" />
+24-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:14:9-54
+24-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:14:19-51
+25        <activity
+25-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:15:9-34:20
+26            android:name="com.codepath.apps.restclienttemplate.LoginActivity"
+26-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:16:13-42
+27            android:label="@string/app_name"
+27-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:17:13-45
+28            android:theme="@style/AppTheme" >
+28-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:18:13-44
+29            <intent-filter>
+29-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:20:17-69
+30-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:22:17-77
+32-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34            <intent-filter>
+34-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:24:13-33:29
+35                <action android:name="android.intent.action.VIEW" />
+35-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:25:17-69
+35-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:25:25-66
+36
+37                <category android:name="android.intent.category.DEFAULT" />
+37-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:27:17-76
+37-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:27:27-73
+38                <category android:name="android.intent.category.BROWSABLE" />
+38-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:28:17-78
+38-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:28:27-75
+39
+40                <data
+40-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:30:17-32:62
+41                    android:host="@string/intent_host"
+41-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:31:21-55
+42                    android:scheme="@string/intent_scheme" />
+42-->C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\AndroidManifest.xml:32:21-59
+43            </intent-filter>
+44        </activity>
+45
+46        <service
+46-->[androidx.room:room-runtime:2.2.5] C:\Users\kasper\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+47            android:name="androidx.room.MultiInstanceInvalidationService"
+47-->[androidx.room:room-runtime:2.2.5] C:\Users\kasper\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+48            android:directBootAware="true"
+48-->[androidx.room:room-runtime:2.2.5] C:\Users\kasper\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+49            android:exported="false" />
+49-->[androidx.room:room-runtime:2.2.5] C:\Users\kasper\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+50    </application>
+51
+52</manifest>

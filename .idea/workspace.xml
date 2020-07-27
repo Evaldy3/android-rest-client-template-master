@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c0f3b42-61fd-47da-b2bc-64aba1fcb3fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detailed_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_tweet_image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/m_toolbar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codepath/apps/restclienttemplate/TimelineActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codepath/apps/restclienttemplate/TimelineActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codepath/apps/restclienttemplate/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codepath/apps/restclienttemplate/Tweet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codepath/apps/restclienttemplate/TweetsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codepath/apps/restclienttemplate/TweetsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codepath/apps/restclienttemplate/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codepath/apps/restclienttemplate/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_vector_compose_dm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_vector_compose_dm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_vector_heart_stroke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_vector_heart_stroke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_vector_retweet_stroke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_vector_retweet_stroke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/vector_compose_dm_fab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/vector_compose_dm_fab.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_tweet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_tweet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="w4zl8lrwkfj779fu" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+        <option value="valueResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1f3I85m6KZeoYopHWFVptfzE1a4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.recentlyUsedThemes" value="Base.Theme.AppCompat.Light.DarkActionBar" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codepath.apps.restclienttemplate" />
+      <recent name="com.codepath.apps.restclienttemplate.models" />
+    </key>
+    <key name="android.template.1152812611">
+      <recent name="com.codepath.apps.restclienttemplate" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\res\drawable-xxhdpi" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\res\layout" />
+      <recent name="C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\res\drawable-hdpi" />
+      <recent name="C:\Users\kasper\AndroidStudioProjects\android-rest-client-template-master\app\src\main\res\drawable-xxhdpi" />
+    </key>
+    <key name="android.template.277974655">
+      <recent name="com.codepath.apps.restclienttemplate" />
+    </key>
+    <key name="android.template.884603718">
+      <recent name="com.codepath.apps.restclienttemplate" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.codepath.apps.restclienttemplate" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c0f3b42-61fd-47da-b2bc-64aba1fcb3fe" name="Default Changelist" comment="" />
+      <created>1595440192556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595440192556</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="88" key="#Inspections" timestamp="1595790137525">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="88" key="#Inspections/0.0.1600.860@0.0.1600.860" timestamp="1595790137525" />
+    <state x="530" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1595483674592">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="185" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1595483674592" />
+    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1595825437500">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1595825437500" />
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595486325798">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1595486325798" />
+    <state x="380" y="185" key="AndroidCreateResourceFileDialog" timestamp="1595815068038">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="380" y="185" key="AndroidCreateResourceFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1595815068038" />
+    <state x="380" y="135" key="AndroidThemeDialog" timestamp="1595473101558">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="380" y="135" key="AndroidThemeDialog/0.0.1600.860@0.0.1600.860" timestamp="1595473101558" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1595619745124">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1595619745124" />
+    <state x="608" y="323" key="Github.ShareDialog" timestamp="1595809225639">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="608" y="323" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1595809225639" />
+    <state x="420" y="135" key="Github.UntrackedFilesDialog" timestamp="1595647183690">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="420" y="135" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1595647183690" />
+    <state width="1557" height="151" key="GridCell.Tab.0.bottom" timestamp="1595829012932">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="151" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1595829012932" />
+    <state width="1557" height="151" key="GridCell.Tab.0.center" timestamp="1595829012932">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="151" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1595829012932" />
+    <state width="1557" height="151" key="GridCell.Tab.0.left" timestamp="1595829012932">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="151" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1595829012932" />
+    <state width="1557" height="151" key="GridCell.Tab.0.right" timestamp="1595829012932">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="151" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1595829012932" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1595772940105">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1595772940105" />
+  </component>
+</project>
