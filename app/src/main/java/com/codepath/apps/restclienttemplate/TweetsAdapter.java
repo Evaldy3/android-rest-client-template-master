@@ -25,12 +25,14 @@ import java.util.List;
 public class TweetsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     Context context;
     List<Tweet> tweets;
-    final int NORMAL = 0,IMAGE = 1 ,VIDEO =2;
+
+    final int NORMAL = 0,IMAGE = 1 ;
     static int REQUEST_CODE = 99;
 
     public TweetsAdapter(Context context, List<Tweet> tweets) {
         this.context = context;
         this.tweets = tweets;
+
     }
 
     @NonNull
@@ -48,10 +50,8 @@ public class TweetsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
                 View tweetImageView = inflater.inflate(R.layout.item_tweet_image,parent,false);
                 viewHolder = new ViewHolderTweetImage(tweetImageView);
                 break;
-         //   case VIDEO:
-            //    View tweetVideoView = inflater.inflate(R.layout.item_tweet_video,parent,false);
-            //    viewHolder = new ViewHolderTweetVideo(tweetVideoView );
-            //    break;
+
+            default:
 
         }
         return viewHolder;
@@ -61,12 +61,12 @@ public class TweetsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     public int getItemViewType(int position) {
         if(tweets.get(position).getEntities().getType() != null){
             if(tweets.get(position).getEntities().getType().contentEquals("photo")){
-                return 0;
+                return IMAGE;
             }else{
-                return 1;
+                return NORMAL;
             }
         }else{
-            return 1;
+            return NORMAL;
         }
     }
 
@@ -81,32 +81,23 @@ public class TweetsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
                 ViewHolderTweetImage viewHolderTweetImage = (ViewHolderTweetImage) holder;
                 bindDatatoViewHolderTweetImage(viewHolderTweetImage,position);
                 break;
-            //    case VIDEO:
-            //   ViewHolderTweetVideo viewHolderTweetVideo = (ViewHolderTweetVideo) holder;
-            //   bindDatatoViewHolderTweetVideo(viewHolderTweetVideo,position);
-            //    break;
+
         }
 
     }
     private void bindDatatoViewHolderTweetText(ViewHolderTweetText viewHolderTweetText, final int position) {
         final Tweet tweet = tweets.get(position);
-        RelativeLayout container = viewHolderTweetText.container;
 
-        TextView tvScreenName = viewHolderTweetText.tvScreenName;
-        tvScreenName.setText(tweet.user.getScreenName());
+        viewHolderTweetText.tvScreenName.setText(tweet.getUser().getScreenName());
 
-        TextView tvBody= viewHolderTweetText.tvBody;
-        tvBody.setText(tweet.getBody());
+        viewHolderTweetText.tvBody.setText(tweet.getBody());
 
-        TextView tvCreateAt = viewHolderTweetText.tvCreateAt;
-        tvCreateAt.setText(""+TimeFormatter.getTimeDifference(tweet.createdAt));
+        viewHolderTweetText.tvCreateAt.setText("•"+TimeFormatter.getTimeDifference(tweet.getCreatedAt()));
 
-        TextView tvUserName = viewHolderTweetText.tvUserName;
-        tvUserName.setText(tweet.user.getName());
+        viewHolderTweetText.tvUserName.setText("@"+tweet.getUser().getName());
 
-        ImageView ivProfile =  viewHolderTweetText.ivProfile;
-        Glide.with(context).load(tweet.user.publicImageUrl).apply(new RequestOptions().centerInside().transform(new RoundedCorners(30))).into( ivProfile);
 
+        Glide.with(context).load(tweet.getUser().getPublicImageUrl()).apply(new RequestOptions().centerInside().transform(new RoundedCorners(30))).into(viewHolderTweetText.ivProfile);
         viewHolderTweetText.container.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -123,25 +114,18 @@ public class TweetsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     }
     private void bindDatatoViewHolderTweetImage(ViewHolderTweetImage viewHolderTweetImage, final int position) {
         final Tweet tweet = tweets.get(position);
-        RelativeLayout container = viewHolderTweetImage.container;
 
-        TextView tvScreenName = viewHolderTweetImage.tvScreenName;
-        tvScreenName.setText(tweet.user.getScreenName());
+        viewHolderTweetImage.tvScreenName.setText(tweet.getUser().getScreenName());
 
-        TextView tvBody= viewHolderTweetImage.tvBody;
-        tvBody.setText(tweet.getBody());
+        viewHolderTweetImage.tvBody.setText(tweet.getBody());
 
-        TextView tvCreateAt = viewHolderTweetImage.tvCreateAt;
-        tvCreateAt.setText(""+TimeFormatter.getTimeDifference(tweet.createdAt));
+        viewHolderTweetImage.tvCreateAt.setText("•"+TimeFormatter.getTimeDifference(tweet.getCreatedAt()));
 
-        TextView tvUserName = viewHolderTweetImage.tvUserName;
-        tvUserName.setText(tweet.user.getName());
+        viewHolderTweetImage.tvUserName.setText("@"+tweet.getUser().getName());
 
-        ImageView ivProfile = viewHolderTweetImage.ivProfile;
-        Glide.with(context).load(tweet.user.publicImageUrl).apply(new RequestOptions().centerInside().transform(new RoundedCorners(30))).into( ivProfile);
+        Glide.with(context).load(tweet.getUser().getPublicImageUrl()).apply(new RequestOptions().centerInside().transform(new RoundedCorners(30))).into(viewHolderTweetImage.ivProfile);
 
-        ImageView ivImage = viewHolderTweetImage.ivImage;
-        Glide.with(context).load(tweet.getEntities().getMedia_url()).apply(new RequestOptions().centerInside().transform(new RoundedCorners(30))).into( ivImage);
+        Glide.with(context).load(tweet.getEntities().getMedia_url()).apply(new RequestOptions().centerInside().transform(new RoundedCorners(30))).into( viewHolderTweetImage.ivImage);
 
         viewHolderTweetImage.container.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -156,9 +140,7 @@ public class TweetsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
     }
 
-    //private void bindDatatoViewHolderTweetVideo(ViewHolderTweetVideo viewHolderTweetVideo, int position) {
 
-    // }
 
 
 
@@ -181,33 +163,33 @@ public class TweetsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     }
 
     public class ViewHolderTweetText extends RecyclerView.ViewHolder {
-        ImageView ivProfile;
-        TextView tvScreenName;
-        TextView tvBody;
-        TextView tvCreateAt;
-        TextView tvUserName;
-        RelativeLayout container;
+        public  ImageView ivProfile;
+        public  TextView tvScreenName;
+        public  TextView tvBody;
+        public   TextView tvCreateAt;
+        public TextView tvUserName;
+        public RelativeLayout container;
 
 
         public ViewHolderTweetText(@NonNull View itemView) {
             super(itemView);
-            ivProfile = itemView.findViewById(R.id.ivProfile);
+            ivProfile =  itemView.findViewById(R.id.ivProfile);
             tvScreenName = itemView.findViewById(R.id.tvScreenName);
-            tvUserName= itemView.findViewById(R.id.tvUserName);
-            tvBody = itemView.findViewById(R.id.tvBody);
-            tvCreateAt = itemView.findViewById(R.id.tvCreateAt);
-            container = (RelativeLayout) itemView.findViewById(R.id.container);
+            tvUserName=  itemView.findViewById(R.id.tvUserName);
+            tvBody =  itemView.findViewById(R.id.tvBody);
+            tvCreateAt =  itemView.findViewById(R.id.tvCreateAt);
+            container =  itemView.findViewById(R.id.container);
         }
     }
 
     public class ViewHolderTweetImage extends RecyclerView.ViewHolder{
-        ImageView ivProfile;
-        TextView tvScreenName;
-        TextView tvBody;
-        TextView tvCreateAt;
-        TextView tvUserName;
-        ImageView ivImage;
-        RelativeLayout container;
+        public ImageView ivProfile;
+        public  TextView tvScreenName;
+        public  TextView tvBody;
+        public  TextView tvCreateAt;
+        public TextView tvUserName;
+        public ImageView ivImage;
+        public  RelativeLayout container;
 
 
         public ViewHolderTweetImage(@NonNull View itemView) {
@@ -215,34 +197,14 @@ public class TweetsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             ivProfile = itemView.findViewById(R.id.ivProfile);
             tvScreenName = itemView.findViewById(R.id.tvScreenName);
             tvUserName= itemView.findViewById(R.id.tvUserName);
-            tvBody = itemView.findViewById(R.id.tvBody);
+            tvBody =  itemView.findViewById(R.id.tvBody);
             tvCreateAt = itemView.findViewById(R.id.tvCreateAt);
-            ivImage = ivProfile.findViewById(R.id.ivImage);
-            container = (RelativeLayout) itemView.findViewById(R.id.container);
+            ivImage =  itemView.findViewById(R.id.ivImage);
+            container =  itemView.findViewById(R.id.container);
         }
     }
 
-    //  public class ViewHolderTweetVideo extends RecyclerView.ViewHolder{
-    //   ImageView ivProfile;
-    //     TextView tvScreenName;
-    //     TextView tvBody;
-    //     TextView tvCreateAt;
-    //    TextView tvUserName;
-    //     VideoView vvVideo;
-    //    RelativeLayout container;
 
-
-    //     public ViewHolderTweetVideo(@NonNull View itemView) {
-    //        super(itemView);
-    //        ivProfile = itemView.findViewById(R.id.ivProfile);
-    //        tvScreenName = itemView.findViewById(R.id.tvScreenName);
-    //        tvUserName= itemView.findViewById(R.id.tvUserName);
-    //         tvBody = itemView.findViewById(R.id.tvBody);
-    //        tvCreateAt = itemView.findViewById(R.id.tvCreateAt);
-    //        vvVideo = itemView.findViewById(R.id.vvVideo);
-    //        container = (RelativeLayout) itemView.findViewById(R.id.container);
-    //     }
-    // }
 
 
 
