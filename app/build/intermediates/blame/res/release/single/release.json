@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\layout_item_tweet_video.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\layout\\item_tweet_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\layout_m_toolbar.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\layout\\m_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_vector_retweet_stroke.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_vector_retweet_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_detailed_view.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\layout\\activity_detailed_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_vector_heart_stroke.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_vector_heart_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_vector_compose_dm_fab.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\drawable-xxhdpi\\vector_compose_dm_fab.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_vector_compose_dm.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_vector_compose_dm.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_timeline.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\layout\\activity_timeline.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_btn_bg.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\drawable-hdpi\\btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\layout_item_tweet_image.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\layout\\item_tweet_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\layout_item_tweet.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\layout\\item_tweet.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_image_viewer.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\layout\\activity_image_viewer.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\menu_login.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_twitter_blue.png.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\drawable-hdpi\\twitter_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_vbg.xml.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\drawable-xxhdpi\\vbg.xml"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]

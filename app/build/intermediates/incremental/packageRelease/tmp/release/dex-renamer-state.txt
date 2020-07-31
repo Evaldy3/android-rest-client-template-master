@@ -1,0 +1,4 @@
+#Tue Jul 28 20:11:32 EDT 2020
+base.0=C\:\\Users\\kasper\\AndroidStudioProjects\\android-rest-client-template-master\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

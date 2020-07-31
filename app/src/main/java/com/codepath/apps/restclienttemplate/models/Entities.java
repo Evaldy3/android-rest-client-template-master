@@ -33,7 +33,7 @@ public class Entities {
         Entities entities = new Entities();
         if(jsonObject.has("media")){
             entities.type = jsonObject.getJSONArray("media").getJSONObject(0).getString("type");
-            entities.media_url = jsonObject.getJSONArray("media").getJSONObject(0).getString("media_url");
+            entities.media_url = jsonObject.getJSONArray("media").getJSONObject(0).getString("media_url_https");
         }else {
             entities.media_url = "";
             entities.type = "";
